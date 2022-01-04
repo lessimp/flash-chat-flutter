@@ -29,7 +29,8 @@ android {
     compileSdkVersion 29
 
     lintOptions {
-        disable 'InvalidPackage'
+        // disable 'InvalidPackage'
+        checkReleaseBuilds false
     }
 
     defaultConfig {
